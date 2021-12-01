@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Photo from '../views/Photo.vue'
 import Hongbao from '../views/Hongbao.vue'
+import Imgmerge from '../views/imgmerge.vue'
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: '/hongbao',
     name: '红包',
     component: Hongbao
+  },
+  {
+    path: '/imgmerge',
+    name: '照片合并',
+    component: Imgmerge
   }
 ]
 

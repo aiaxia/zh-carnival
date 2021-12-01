@@ -5,4 +5,7 @@ import store from './store'
 // import 'vant/lib/index.css';
 import './common.css';
 
-createApp(App).use(store).use(router).mount('#app')
+import Vue from 'vue';
+//引入组件
+import vueEsign from 'vue-esign';
+createApp(App).use(store).use(router).use(vueEsign).mount('#app')

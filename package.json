@@ -10,10 +10,13 @@
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "html2canvas": "^1.3.3",
     "moment": "^2.29.1",
     "sha1": "^1.1.1",
     "vant": "^3.2.6",
     "vue": "^3.0.0",
+    "vue-esign": "^1.0.5",
+    "vue-qr": "^3.2.2",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },

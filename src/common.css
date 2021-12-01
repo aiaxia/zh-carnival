@@ -2,7 +2,6 @@
 html{-webkit-text-size-adjust:100%;}
 /*reset*/
 html{max-width: 640px;margin:0 auto;background:white;}
-// html{background: #f2f2f2;}
 article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, figure, section, legend, textarea, p, blockquote, th, td, input, select, textarea, button { margin: 0; padding: 0 }
 fieldset, img { border: 0 none }

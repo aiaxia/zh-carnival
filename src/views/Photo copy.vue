@@ -37,7 +37,6 @@
  <loading v-model="showLoading" ></loading>    
  <x-icon class="close" type="ios-close-empty" size="40" @click="close"></x-icon> 
  </div>
-<button>hhhhhhhhhhhhhh</button>
 </template>
 <script>  
     import {Loading} from "vuex";  
@@ -68,7 +67,7 @@
                 this.$router.go(-1);        
                 // this.$emit('addImg',"");      
             },      // 调用权限（打开摄像头功能）      
-            getCompetence() {      
+            getCompetence() {        
                 var _this = this;        
                 this.videoWidth =  this.$refs.photo.clientWidth  //宽度        
                 this.videoHeight = this.videoWidth;        
